@@ -102,5 +102,7 @@ yaitu memberitahunya bahwa kamu baru saja dapat uang besar belakangan ini
 
 Selain ibu kandungmu, tak ada yang benar-benar mengharapkanmu menjadi lebih baik
 
-Berpura-pura miskin di depan orang-orang yang dikenal adalah teknik bela diri paling dasar,
+Berpura-pura miskin di depan orang-orang yang dikenal adalah teknik bela diri paling dasar.
+
+# Tujuan dan Target hanya boleh satu
 
