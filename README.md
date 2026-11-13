@@ -1,17 +1,20 @@
 <div align="center">
+  <img src="svg/gadun.svg" alt="Logo GADUN" width="120" />
+  <h1>G A D U N</h1>
+  <h3><strong>GUDANG MESIN UANG</strong></h3>
+  <p><em>Autonomous Quantitative Foundry &amp; Algorithmic Execution Engine</em></p>
 
-# G A D U N
-### **GUDANG MESIN UANG**
-*Autonomous Quantitative Foundry & Algorithmic Execution Engine*
+  <p>
+    <img src="https://img.shields.io/badge/SYSTEM-OPERATIONAL-00C853?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Operational" />
+    <img src="https://img.shields.io/badge/ENGINE-MQL5%20%7C%20PYTHON%20%7C%20GO-1E1E1E?style=for-the-badge" alt="Engine MQL5 Python Go" />
+    <img src="https://img.shields.io/badge/EXECUTION-24%2F7%20AUTONOMOUS-D4AF37?style=for-the-badge" alt="Execution 24/7 Autonomous" />
+  </p>
 
-[![Status](https://img.shields.io/badge/SYSTEM-OPERATIONAL-00C853?style=for-the-badge&logo=statuspage&logoColor=white)]()
-[![Engine](https://img.shields.io/badge/ENGINE-MQL5%20%7C%20PYTHON%20%7C%20GO-1E1E1E?style=for-the-badge)]()
-[![Mode](https://img.shields.io/badge/EXECUTION-24%2F7%20AUTONOMOUS-D4AF37?style=for-the-badge)]()
+  <hr />
 
----
-
-> *"Pasar keuangan tidak pernah tidur. Kami membangun gudang tempat strategi dirakit, dan ruang mesin tempat algoritma bekerja tanpa emosi."*
-
+  <blockquote>
+    <em>"Pasar keuangan tidak pernah tidur. Kami membangun gudang tempat strategi dirakit, dan ruang mesin tempat algoritma bekerja tanpa emosi."</em>
+  </blockquote>
 </div>
 
 ## 🏛️ Filosofi Arsitektur
@@ -52,10 +55,7 @@ Jantung operasional steril di bagian terdalam sistem yang beroperasi 24/7 di pas
 ---
 
 <div align="center">
-
-### **GADUN**
-*Engineered for Precision. Built for Cashflow.*
-
-[GitHub](https://github.com/gadun)
-
+  <h3><strong>GADUN</strong></h3>
+  <p><em>Engineered for Precision. Built for Cashflow.</em></p>
+  <p><a href="https://github.com/gadun">GitHub</a></p>
 </div>
