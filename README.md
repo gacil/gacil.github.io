@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="svg/gadun.svg" alt="Logo GADUN" width="120" />
-  <h1>G A D U N</h1>
+  <img src="svg/gosaldo.svg" alt="Logo GOSALDO" width="120" />
+  <h1>G O S A L D O</h1>
   <h3><strong>GUDANG MESIN UANG</strong></h3>
   <p><em>Autonomous Quantitative Foundry &amp; Algorithmic Execution Engine</em></p>
 
@@ -19,7 +19,7 @@
 
 ## 🏛️ Filosofi Arsitektur
 
-**GADUN** adalah ekosistem rekayasa finansial (*quantitative trading foundry*) yang memisahkan secara ketat antara **riset & perakitan strategi** dengan **eksekusi modal nyata**. Sistem ini dibagi menjadi dua lapisan utama:
+**GOSALDO** adalah ekosistem rekayasa finansial (*quantitative trading foundry*) yang memisahkan secara ketat antara **riset & perakitan strategi** dengan **eksekusi modal nyata**. Sistem ini dibagi menjadi dua lapisan utama:
 
 ### 1. Gudang Mesin Uang *(The Foundry & Blueprint Repository)*
 Lapisan luar yang berfungsi sebagai pabrik perakitan dan penyimpanan aset intelektual:
@@ -47,15 +47,15 @@ Jantung operasional steril di bagian terdalam sistem yang beroperasi 24/7 di pas
 
 ## 📦 Peta Repositori Ekosistem
 
-* **`gadun-core`** — Mesin eksekusi utama (*Expert Advisors*) dan logika manajemen posisi.
-* **`gadun-foundry`** — *Pipeline* riset, simulasi, dan generator perakitan robot trading.
-* **`gadun-vault`** — Modul pengaman ekuitas, kalkulasi lot dinamis, dan proteksi risiko darurat.
-* **`gadun-sentinel`** — *Watchdog* infrastruktur untuk pemantauan server dan laporan *real-time*.
+* **`gosaldo-core`** — Mesin eksekusi utama (*Expert Advisors*) dan logika manajemen posisi.
+* **`gosaldo-foundry`** — *Pipeline* riset, simulasi, dan generator perakitan robot trading.
+* **`gosaldo-vault`** — Modul pengaman ekuitas, kalkulasi lot dinamis, dan proteksi risiko darurat.
+* **`gosaldo-sentinel`** — *Watchdog* infrastruktur untuk pemantauan server dan laporan *real-time*.
 
 ---
 
 <div align="center">
-  <h3><strong>GADUN</strong></h3>
+  <h3><strong>GOSALDO</strong></h3>
   <p><em>Engineered for Precision. Built for Cashflow.</em></p>
-  <p><a href="https://github.com/gadun">GitHub</a></p>
+  <p><a href="https://github.com/gosaldo">GitHub</a></p>
 </div>
