@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="90mm" height="55mm" role="img" aria-label="Kartu Nama GOSALDO (Belakang)">
+  <defs>
+    <radialGradient id="backBg" cx="50%" cy="40%" r="72%">
+      <stop offset="0%" stop-color="#0E2931" />
+      <stop offset="55%" stop-color="#08181D" />
+      <stop offset="100%" stop-color="#040C0F" />
+    </radialGradient>
+
+    <radialGradient id="centerHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.28" />
+      <stop offset="50%" stop-color="#FACC15" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#08181D" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="goldWordmark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#FEF9C3" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F766E" stop-opacity="0.3" />
+      <stop offset="30%" stop-color="#5EEAD4" />
+      <stop offset="50%" stop-color="#FACC15" />
+      <stop offset="70%" stop-color="#5EEAD4" />
+      <stop offset="100%" stop-color="#0F766E" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Official Gosaldo Logo Gradients -->
+    <radialGradient id="mintBg" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#D1FAE5" />
+    </radialGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#FACC15" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+
+    <pattern id="backGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#5EEAD4" stroke-width="0.6" stroke-opacity="0.055" />
+    </pattern>
+
+    <filter id="backShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Base Surface -->
+  <rect x="0" y="0" width="900" height="550" fill="url(#backBg)" />
+  <rect x="0" y="0" width="900" height="550" fill="url(#backGrid)" />
+
+  <!-- Subtle Candlestick Silhouette Motif -->
+  <g opacity="0.06" fill="#5EEAD4" stroke="#5EEAD4" stroke-width="1.5">
+    <line x1="88" y1="370" x2="88" y2="465" /><rect x="81" y="395" width="14" height="45" rx="2" />
+    <line x1="124" y1="350" x2="124" y2="440" /><rect x="117" y="370" width="14" height="42" rx="2" />
+    <line x1="160" y1="385" x2="160" y2="475" /><rect x="153" y="405" width="14" height="38" rx="2" fill="none" />
+    <line x1="740" y1="380" x2="740" y2="470" /><rect x="733" y="400" width="14" height="42" rx="2" fill="none" />
+    <line x1="776" y1="340" x2="776" y2="440" /><rect x="769" y="365" width="14" height="50" rx="2" />
+    <line x1="812" y1="310" x2="812" y2="415" /><rect x="805" y="332" width="14" height="54" rx="2" />
+  </g>
+
+  <!-- Top & Bottom Trim -->
+  <rect x="0" y="0" width="900" height="5" fill="url(#goldTrim)" />
+  <rect x="0" y="545" width="900" height="5" fill="url(#goldTrim)" opacity="0.7" />
+
+  <!-- Vault Outer Border & Gold Corner Brackets -->
+  <rect x="28" y="28" width="844" height="494" rx="14" fill="none" stroke="#5EEAD4" stroke-width="1" stroke-opacity="0.16" />
+  <g stroke="#FACC15" stroke-width="2" fill="none" stroke-opacity="0.65" stroke-linecap="round">
+    <path d="M 28 62 L 28 40 Q 28 28 40 28 L 62 28" />
+    <path d="M 838 28 L 860 28 Q 872 28 872 40 L 872 62" />
+    <path d="M 28 488 L 28 510 Q 28 522 40 522 L 62 522" />
+    <path d="M 838 522 L 860 522 Q 872 522 872 510 L 872 488" />
+  </g>
+
+  <!-- Central Halo & Orbital Rings -->
+  <circle cx="450" cy="166" r="165" fill="url(#centerHalo)" />
+  <circle cx="450" cy="166" r="106" fill="none" stroke="#5EEAD4" stroke-width="1" stroke-opacity="0.22" />
+  <circle cx="450" cy="166" r="95" fill="none" stroke="#FACC15" stroke-width="1.2" stroke-opacity="0.42" stroke-dasharray="5 7" />
+
+  <!-- Official GOSALDO SVG Logo (172x172 centered at 450, 166) -->
+  <g transform="translate(364, 80) scale(0.3359375)" filter="url(#backShadow)">
+    <circle cx="256" cy="256" r="240" fill="url(#mintBg)" />
+    <ellipse cx="256" cy="412" rx="125" ry="18" fill="#6EE7B7" opacity="0.45" />
+
+    <!-- Koin Emas Melayang di Atas Belalai -->
+    <g transform="translate(334, 152)">
+      <circle cx="0" cy="0" r="34" fill="url(#coinGrad)" stroke="#B45309" stroke-width="5" />
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#FEF9C3" stroke-width="2.5" stroke-dasharray="6 4" />
+      <text x="0" y="10" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="900" fill="#92400E">G</text>
+    </g>
+
+    <!-- Bintang Kilau Kecil -->
+    <g fill="#FACC15">
+      <polygon points="390,118 394,128 404,132 394,136 390,146 386,136 376,132 386,128" />
+      <polygon points="282,112 285,119 292,122 285,125 282,132 279,125 272,122 279,119" />
+    </g>
+
+    <!-- Telinga Kiri & Kanan -->
+    <ellipse cx="136" cy="242" rx="64" ry="80" fill="#5EEAD4" stroke="#0F766E" stroke-width="6" />
+    <ellipse cx="142" cy="246" rx="40" ry="52" fill="#FDA4AF" opacity="0.75" />
+
+    <ellipse cx="356" cy="242" rx="64" ry="80" fill="#5EEAD4" stroke="#0F766E" stroke-width="6" />
+    <ellipse cx="350" cy="246" rx="40" ry="52" fill="#FDA4AF" opacity="0.75" />
+
+    <!-- Badan Duduk -->
+    <ellipse cx="246" cy="342" rx="84" ry="68" fill="#99F6E4" stroke="#0F766E" stroke-width="6" />
+    <ellipse cx="246" cy="352" rx="50" ry="42" fill="#CCFBF1" />
+
+    <!-- Kaki Depan -->
+    <ellipse cx="188" cy="388" rx="28" ry="22" fill="#5EEAD4" stroke="#0F766E" stroke-width="6" />
+    <ellipse cx="304" cy="388" rx="28" ry="22" fill="#5EEAD4" stroke="#0F766E" stroke-width="6" />
+
+    <!-- Kepala -->
+    <circle cx="246" cy="236" r="88" fill="#99F6E4" stroke="#0F766E" stroke-width="6" />
+
+    <!-- Pipi Merona -->
+    <ellipse cx="190" cy="254" rx="15" ry="9" fill="#FB7185" opacity="0.55" />
+    <ellipse cx="302" cy="254" rx="15" ry="9" fill="#FB7185" opacity="0.55" />
+
+    <!-- Mata Bahagia -->
+    <path d="M 196 224 Q 208 210 220 224" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" />
+    <path d="M 272 224 Q 284 210 296 224" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Belalai Mengangkat Koin -->
+    <path d="M 232 248 C 234 290, 266 296, 294 268 C 314 248, 326 218, 322 194 C 318 186, 304 190, 304 202 C 304 220, 290 242, 272 254 C 258 262, 254 252, 256 244"
+          fill="#99F6E4" stroke="#0F766E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Centered Wordmark & Tagline -->
+  <text x="450" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="11" fill="url(#goldWordmark)">GOSALDO</text>
+  <text x="450" y="346" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4.2" fill="#FACC15">GUDANG MESIN UANG MASA DEPAN</text>
+
+  <!-- Subtle Horizontal Divider -->
+  <line x1="330" y1="366" x2="570" y2="366" stroke="url(#goldTrim)" stroke-width="1.8" opacity="0.9" />
+
+  <!-- Core Capability Pills -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#99F6E4">
+    <rect x="160" y="384" width="180" height="28" rx="14" fill="#0F2D35" stroke="#5EEAD4" stroke-width="0.9" stroke-opacity="0.35" />
+    <text x="250" y="402" text-anchor="middle">MQL5 • MT5 ENGINE</text>
+
+    <rect x="356" y="384" width="188" height="28" rx="14" fill="#0F2D35" stroke="#FACC15" stroke-width="0.9" stroke-opacity="0.4" />
+    <text x="450" y="402" text-anchor="middle" fill="#FEF08A">AI • ONNX • PYTHON</text>
+
+    <rect x="560" y="384" width="180" height="28" rx="14" fill="#0F2D35" stroke="#5EEAD4" stroke-width="0.9" stroke-opacity="0.35" />
+    <text x="650" y="402" text-anchor="middle">24/7 RISK VAULT</text>
+  </g>
+
+  <!-- Motto -->
+  <text x="450" y="448" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-style="italic" letter-spacing="0.7" fill="#CBD5E1">Engineered for Precision. Built for Cashflow.</text>
+
+  <!-- Footer Links -->
+  <text x="450" y="488" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#5EEAD4" opacity="0.88">gosaldo.github.io   •   github.com/gosaldo   •   t.me/gosaldo</text>
+</svg>

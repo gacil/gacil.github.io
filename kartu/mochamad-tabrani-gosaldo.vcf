@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Tabrani;Mochamad;;;
+FN:Mochamad Tabrani
+ORG:GOSALDO (Gudang Mesin Uang)
+TITLE:Owner & Algorithmic Trading Architect
+TEL;TYPE=CELL,VOICE:+628999587888
+URL;TYPE=Website:https://gosaldo.github.io/kartu/
+URL;TYPE=GitHub:https://github.com/gosaldo
+URL;TYPE=Telegram:https://t.me/gosaldo
+URL;TYPE=X:https://x.com/surgapagi
+NOTE:GOSALDO (Gudang Mesin Uang) - Autonomous Quantitative Foundry & Algorithmic Execution Engine (MQL5/MT5, AI/ONNX, Python, Go, 24/7 Risk Vault).
+END:VCARD
