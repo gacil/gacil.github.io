@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="90mm" height="55mm" role="img" aria-label="Kartu Nama GOSALDO (Belakang)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="90mm" height="55mm" role="img" aria-label="Kartu Nama GACIL (Belakang)">
   <defs>
     <radialGradient id="backBg" cx="50%" cy="40%" r="72%">
       <stop offset="0%" stop-color="#0E2931" />
@@ -26,7 +26,7 @@
       <stop offset="100%" stop-color="#0F766E" stop-opacity="0.3" />
     </linearGradient>
 
-    <!-- Official Gosaldo Logo Gradients -->
+    <!-- Official Gacil Logo Gradients -->
     <radialGradient id="mintBg" cx="50%" cy="50%" r="55%">
       <stop offset="0%" stop-color="#ECFDF5" />
       <stop offset="100%" stop-color="#D1FAE5" />
@@ -128,7 +128,7 @@
   </g>
 
   <!-- Centered Wordmark & Tagline -->
-  <text x="450" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="11" fill="url(#goldWordmark)">GOSALDO</text>
+  <text x="450" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="11" fill="url(#goldWordmark)">GACIL</text>
   <text x="450" y="346" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4.2" fill="#FACC15">GUDANG MESIN UANG MASA DEPAN</text>
 
   <!-- Subtle Horizontal Divider -->
@@ -150,5 +150,5 @@
   <text x="450" y="448" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-style="italic" letter-spacing="0.7" fill="#CBD5E1">Engineered for Precision. Built for Cashflow.</text>
 
   <!-- Footer Links -->
-  <text x="450" y="488" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#5EEAD4" opacity="0.88">gosaldo.github.io   •   github.com/gosaldo   •   t.me/gosaldo</text>
+  <text x="450" y="488" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#5EEAD4" opacity="0.88">gacil.github.io   •   github.com/gacil   •   t.me/surgasaldo</text>
 </svg>
